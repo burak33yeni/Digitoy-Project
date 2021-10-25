@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-color: forestgreen;
+        }
+        p {
+            background-color: yellow;
+            border: 1px solid black;
+            margin: 0px 800px 10px 0px;
+            text-align: center;
+            font-size: 150%;
+        }
+        button {
+            font-size: 200%;
+        }
+        h2 {
+            color: cornsilk;
+            margin: 0px 800px 10px 0px;
+            text-align: center;
+            font-size: 400%;
+        }
+        h3 {
+            color: lightgrey;
+            margin: 0px 800px 10px 0px;
+            text-align: center;
+            font-size: 75%;
+        }
+    </style>
+</head>
+<body onload="onLoad()">
+
+    <h2>
+        Direct Okey
+    </h2>
+
+    <h3>
+        No gameplay! Only the luckiest one can win!
+    </h3>
+
+    <p id="ind" onmouseover="getIndTile()" style="font-size: 150%;">
+        paragraf geçici
+
+    </p>
+
+    <p id="joker" onmouseover="getJoker()" style="font-size: 150%;">
+        paragraf geçici
+    </p>
+
+    <p id="p1" onmouseover="getplayer1()" style="background-color:sandybrown;">
+        paragraf geçici
+    </p>
+    <p id="p1s" onmouseover="getplayer1set()" style="background-color:mediumspringgreen;">
+        paragraf geçici
+    </p>
+    <p id="p2" onmouseover="getplayer2()" style="background-color:sandybrown;">
+        paragraf geçici
+    </p>
+    <p id="p2s" onmouseover="getplayer2set()" style="background-color:mediumspringgreen;">
+        paragraf geçici
+    </p>
+    <p id="p3" onmouseover="getplayer3()" style="background-color:sandybrown;">
+        paragraf geçici
+    </p>
+    <p id="p3s" onmouseover="getplayer3set()" style="background-color:mediumspringgreen;">
+        paragraf geçici
+    </p>
+    <p id="p4" onmouseover="getplayer4()" style="background-color:sandybrown;">
+        paragraf geçici
+    </p>
+    <p id="p4s" onmouseover="getplayer4set()" style="background-color:mediumspringgreen;">
+        paragraf geçici
+    </p>
+    <p id="p5" onmouseover="getWinner()">
+        paragraf geçici
+    </p>
+    <button id="langButton" onclick="changeLanguage()">
+        Change Language
+    </button>
+    <button id="langButton" onClick="window.location.reload();">
+        New Game
+    </button>
+
+
+
+    <script src="scripts.js">
+    </script>
+</body>
+</html>
